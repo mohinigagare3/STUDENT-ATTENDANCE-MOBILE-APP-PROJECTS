@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #eef2f5;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    background: #ffffff;
+    max-width: 450px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.add-student {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.add-student input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.add-student button {
+    padding: 10px;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.attendance-section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.present-btn {
+    background: #2ecc71;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.absent-btn {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background: #555;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.summary {
+    margin-top: 15px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
