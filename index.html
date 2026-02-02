@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <h1>Student Attendance App</h1>
+
+    <div class="add-student">
+        <input type="text" id="studentName" placeholder="Enter Student Name">
+        <button onclick="addStudent()">Add Student</button>
+    </div>
+
+    <div class="attendance-section">
+        <h2>Attendance List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Present</th>
+                    <th>Absent</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="studentList"></tbody>
+        </table>
+    </div>
+
+    <div class="summary">
+        <h2>Attendance Summary</h2>
+        <p>Total Students: <span id="totalStudents">0</span></p>
+        <p>Present: <span id="presentCount">0</span></p>
+        <p>Absent: <span id="absentCount">0</span></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
